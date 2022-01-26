@@ -6,6 +6,7 @@
     ],
     "authEndpoint": "http://192.168.223.147:8080/auth/realms/rancher/protocol/openid-connect/auth",
     "clientId": "rancher26",
+    "clientSecret": "H6HYRVEWyZsY06YPoxxu55sPZYkgGY8d",
     "created": "2021-09-12T17:08:02Z",
     "creatorId": null,
     "enabled": false,
@@ -16,7 +17,7 @@
     },
     "name": "keycloakoidc",
     "ownerReferences": [ ],
-    "rancherUrl": "…/verify-auth",
+    "rancherUrl": "https://rancher26.home.brainy.es/verify-auth",
     "scope": "openid profile email",
     "type": "keyCloakOIDCConfig",
     "uuid": "9641a9cd-bc12-4309-83cc-cdf9f7bb2b1c"
