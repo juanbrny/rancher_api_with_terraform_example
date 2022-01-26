@@ -6,4 +6,4 @@ The first step is to get an access key and secret key to connect to the API. For
 
 Once the token is created we can proceed and make authenticated API calls using the local_exec provisioner to launch a curl command.
 
-
+The full API JSON request is shown in file request_example.json
