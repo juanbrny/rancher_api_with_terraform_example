@@ -1,0 +1,24 @@
+{
+
+    "accessMode": "unrestricted",
+    "allowedPrincipalIds": [
+        "keycloakoidc_user://4b8c66e7-7989-44ba-bf40-1d362986ac0b"
+    ],
+    "authEndpoint": "http://192.168.223.147:8080/auth/realms/rancher/protocol/openid-connect/auth",
+    "clientId": "rancher26",
+    "created": "2021-09-12T17:08:02Z",
+    "creatorId": null,
+    "enabled": false,
+    "groupSearchEnabled": null,
+    "issuer": "http://192.168.223.147:8080/auth/realms/rancher",
+    "labels": {
+        "cattle.io/creator": "norman"
+    },
+    "name": "keycloakoidc",
+    "ownerReferences": [ ],
+    "rancherUrl": "…/verify-auth",
+    "scope": "openid profile email",
+    "type": "keyCloakOIDCConfig",
+    "uuid": "9641a9cd-bc12-4309-83cc-cdf9f7bb2b1c"
+
+}

@@ -1,0 +1,9 @@
+This is an example of how to interact with Rancher's API within Terraform.
+
+The Terraform code will connect to an existing Rancher cluster and will use Rancher's API calls to configure an auth provider.
+
+The first step is to get an access key and secret key to connect to the API. For that we'll use the rancher2_token provider.
+
+Once the token is created we can proceed and make authenticated API calls using the local_exec provisioner to launch a curl command.
+
+
